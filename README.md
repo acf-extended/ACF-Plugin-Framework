@@ -20,8 +20,13 @@ The framework will automatically load ACF Pro, if it isn't detected on the curre
 It is possible to use a custom ACF Pro path, using the following hooks:
 
 ```php
-add_filter('acff/path', '/path/to/acf-pro/');
-add_filter('acff/url', '/url/to/acf-pro/');
+add_filter('acff/path', function(){
+    return '/path/to/acf-pro/';
+});
+
+add_filter('acff/url', function(){
+    return '/url/to/acf-pro/';
+});
 ```
 
 ### ACF json
