@@ -31,5 +31,7 @@ add_filter('acff/url', function(){
 
 ### ACF json
 The framework will auto-detect the following folders and include them as part of the ACF Json Loading sequence:
-`/my-plugin/acf-framework/acf-json/`
-`/my-plugin/acf-json/`
+```
+/my-plugin/acf-framework/acf-json/
+/my-plugin/acf-json/
+```
